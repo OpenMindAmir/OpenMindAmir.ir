@@ -48,10 +48,8 @@
       <center>
         <div class="mx-auto sm:grid sm:grid-cols-2 xl:flex z-10 md:px-8 mt-5 justify-center">
           <div class="card">
-            <h4>زرین‌پال</h4>
-            <img
-              class="content-[url('/assets/images/ZarinPal.jpg')] dark:content-[url('/assets/images/ZarinPal-Dark.jpg')]"
-              alt="لینک زرین‌پال" title="زرین‌پال" />
+            <h4>پرداخت ریالی</h4>
+            <img src="/assets/images/irr.jpg" alt="لینک پرداخت بلوبانک" title="بلوبانک" />
             <div class="tokens">
               <div>
                 <svg viewBox="0 0 64 64">
@@ -103,14 +101,17 @@
                 <span>ریال ایران (IRR)</span>
               </div>
             </div>
-            <input type="text" id="zp" value="ZP.1187490" readonly />
-            <a href="https://zarinp.al/@AmirTheFree" title="درگاه پرداخت"><button type="button"
+            <!-- <a href="https://zarinp.al/@AmirTheFree" title="درگاه پرداخت"><button type="button"
                 class="max-h-10 relative">برو برای
                 پرداخت<span class="absolute flex h-3 w-3 bottom-[80%] start-[95%]">
                   <span
                     class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00ff00] opacity-75"></span>
                   <span class="relative inline-flex rounded-full h-3 w-3 bg-[#00e700]"></span>
-                </span></button></a>
+                </span></button></a> -->
+            <input type="text" id="IRR" value="6219861907300478" readonly />
+            <button type="button" onclick="copyAddr('IRR')">
+              کپی آدرس
+            </button>
           </div>
           <div class="card">
             <h4>اسمارت‌چین (BEP20)</h4>
@@ -139,7 +140,7 @@
                 </svg>
                 <span>دلار بایننس (BUSD)</span>
               </div> -->
-              <div>
+              <!-- <div>
                 <svg viewBox="0 0 32 32">
                   <g fill="none">
                     <circle cx="16" cy="16" r="16" fill="#3e73c4" />
@@ -188,7 +189,7 @@
                   </g>
                 </svg>
                 <span>اتریوم (ETH)</span>
-              </div>
+              </div> -->
               <div>
                 <svg viewBox="0 0 24 24">
                   <path fill="#f0b90b"
@@ -274,13 +275,13 @@
                 </svg>
                 <span>تتر دلار آمریکا (USDT)</span>
               </div>
-              <div>
+              <!-- <div>
                 <svg class="bg-white rotate-180 rounded-full" viewBox="0 0 24 24">
                   <path fill="black"
                     d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12s12-5.373 12-12S18.627 0 12 0M7.902 6.697h8.196c1.505 0 2.462 1.628 1.705 2.94l-5.059 8.765a.86.86 0 0 1-1.488 0L6.199 9.637c-.758-1.314.197-2.94 1.703-2.94m4.844 1.496v7.58l1.102-2.128l2.656-4.756a.465.465 0 0 0-.408-.696zM7.9 8.195a.464.464 0 0 0-.408.694l2.658 4.754l1.102 2.13V8.195z" />
                 </svg>
                 <span>نات‌کوین (NOT)</span>
-              </div>
+              </div> -->
               <div>
                 <svg class="bg-white rounded-full" viewBox="0 0 24 24">
                   <path fill="#0088cc"
