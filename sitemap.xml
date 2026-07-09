@@ -1,33 +1,23 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://AmirTheFree.ir/</loc>
+    <loc>https://OpenMindAmir.ir/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://AmirTheFree.ir/donate/</loc>
+    <loc>https://OpenMindAmir.ir/donate/</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://AmirTheFree.ir/skills/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://AmirTheFree.ir/fa/</loc>
+    <loc>https://OpenMindAmir.ir/fa/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://AmirTheFree.ir/fa/donate/</loc>
+    <loc>https://OpenMindAmir.ir/fa/donate/</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://AmirTheFree.ir/fa/skills/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
   </url>
 </urlset>
 
